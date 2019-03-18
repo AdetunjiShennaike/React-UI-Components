@@ -1,1 +1,14 @@
 /* All styles for your Card Components live here */
+
+.cardContainer {
+  border: 1px solid purple;
+  padding-left: 50px;
+}
+
+.cardContainer .content {
+  border-radius: 5px;
+}
+
+.cardContainer .content p {
+  border: 1px solid lightgrey;
+}
