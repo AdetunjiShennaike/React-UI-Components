@@ -1,0 +1,11 @@
+footer {
+  border: 1px solid yellow;
+}
+
+footer ul {
+  display: flex;
+}
+
+footer ul li {
+  margin: 0 40px;
+}

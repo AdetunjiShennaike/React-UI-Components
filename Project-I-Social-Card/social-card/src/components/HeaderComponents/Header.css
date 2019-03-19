@@ -2,7 +2,6 @@
 
 .header {
   display: flex;
-  justify-content: center;
   align-items: flex-start;
   border: 1px solid red;
 }
@@ -18,13 +17,13 @@
 }
 
 .header .userName p {
-  font-size: 1.8rem;
+  font-size: 1rem;
   color: grey;
 }
 
 .header .userName span {
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.2rem;
   color: black;
 }
 

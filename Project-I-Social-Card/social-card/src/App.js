@@ -4,6 +4,7 @@ import './App.css';
 //import files
 import Header from './components/HeaderComponents/HeaderContainer'
 import Card from './components/CardComponents/CardContainer'
+import Footer from './components/FooterComponents/Footer'
 
 const App = () => {
   return (
@@ -24,9 +25,10 @@ const App = () => {
         </p>
       </div>
       <div className='container'>
-      <Header />
-      <Card />
-    </div>
+        <Header />
+        <Card />
+        <Footer />
+      </div>
     </div>
 
     
