@@ -4,7 +4,7 @@ import './Display.css';
 let Display = (props) => {
   return (
     <div className='display'>
-      {props.input.outcome}
+      {props.outcome}
     </div>
   )
 }

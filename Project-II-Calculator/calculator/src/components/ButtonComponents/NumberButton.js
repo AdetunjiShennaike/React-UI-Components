@@ -2,21 +2,14 @@ import React from 'react';
 import './Button.css';
 
 
-let NmbBtn = (props) => {
+let Buttons = (props) => {
   return (
-    <button className='number-button'>
-      {props.input.value}
-    </button>
+    <div>
+      <button className='number-button operand-button'>
+        {props.input.value}
+      </button>
+    </div>
   )
 }
 
-let SymBtn = (props) => {
-  return (
-    <button className='symbol-button'>
-      {props.input.operator}
-    </button>
-  )
-}
-
-export default NmbBtn
-export default SymBtn
+export default Buttons

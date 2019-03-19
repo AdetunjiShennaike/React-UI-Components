@@ -6,7 +6,6 @@ let ClearBtn = () => {
   return (
     <button className='clear'>
       Clear
-
     </button>
   )
 }
