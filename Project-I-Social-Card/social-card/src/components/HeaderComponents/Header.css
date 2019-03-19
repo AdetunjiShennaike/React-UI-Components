@@ -10,12 +10,12 @@
   height: 50px;
   width: auto;
   border: 1px solid green;
-  padding: 0; 
 }
 
 .header .content {
   border: 1px solid lightblue;
   padding: 0;
+  line-height: 1.25;
 }
 
 .header .userName p {

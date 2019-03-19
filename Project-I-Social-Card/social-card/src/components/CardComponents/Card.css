@@ -1,14 +1,18 @@
 /* All styles for your Card Components live here */
 
+.cardContainer {
+  text-decoration: none;
+}
+
 .content {
   border: 1px solid purple;
-  text-decoration: none;
   color: black;
   padding-left: 50px;
+  margin: 1px 0;
 }
 
 
-.cardContainer .content .text {
+.content .text {
   border: 1px solid lightgrey;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -17,16 +21,16 @@
   margin-top: -5px;
 }
 
-.cardContainer .content .text h3 {
+.content .text h3 {
   font-weight: bold;
 }
 
-.cardContainer .content .text h4 {
+.content .text h4 {
   color: lightgrey;
   font-weight: 200;
 }
 
-.cardContainer .content img {
+.content img {
   width: 540px;
   height: auto;
   border-top-left-radius: 10px;
