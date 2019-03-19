@@ -8,4 +8,5 @@ footer ul {
 
 footer ul li {
   margin: 0 40px;
+  list-style: none;
 }
