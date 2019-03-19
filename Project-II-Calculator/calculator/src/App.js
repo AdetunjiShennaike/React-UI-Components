@@ -1,6 +1,12 @@
 import React from 'react';
 import './App.css';
 
+//import buttons
+import ClearBtn from './components/ButtonComponents/ActionButton'
+import NmbBtn from './components/ButtonComponents/NumberButton'
+import SymBtn from './components/ButtonComponents/NumberButton'
+import Display from './components/DisplayComponents/CalculatorDisplay'
+
 const App = () => {
   return (
     <div>

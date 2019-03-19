@@ -5,10 +5,10 @@ function Footer() {
   return (
     <footer>
       <ul>
-        <li><img src='~/Desktop/Lambda_School_Work/React-UI-Components/Project-I-Social-Card/social-card/public/108-bubble.svg' alt='bubble'></img></li>
-        <li><img src='../../../public/128-spinner6.svg' alt='spin'></img> 6</li>
-        <li><img src='../../../public/219-heart.svg' alt='heart'></img> 4</li>
-        <li><img src='../../../public/389-mail2.svg' alt='mail'></img></li>
+        <li><img src='./108-bubble.png' alt='bubble'></img></li>
+        <li><img src='./128-spinner6.png' alt='spin'></img> 6</li>
+        <li><img src='./219-heart.png' alt='heart'></img> 4</li>
+        <li><img src='./389-mail2.png' alt='mail'></img></li>
       </ul>
     </footer>
   )
